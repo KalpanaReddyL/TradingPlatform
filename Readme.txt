@@ -1,5 +1,5 @@
 The trading application is developed with below assumptions
-1. A file with multiple instructions. Each line has an instruction data with instruction id, asset name, Trading type, forex rate, currency, instruction date, value date, units and price with comma separated data.
+1. A file with multiple instructions is the input. Each line has an instruction data with instruction id, asset name, Trading type, forex rate, currency, instruction date, value date, units and price with comma separated data.
 2. Each instruction might have different trading currency but the trading exchange is in US and hence all the trades are settled in US trading centre.
 3. Even if the trade is initiated in AED or SAR on sunday, the trade is settled in US on monday
 4. Amount is negative values for Sell instructions and positive for buy instructions.
